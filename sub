@@ -1,8 +1,8 @@
 #include<stdio.h>
 int main()
-{  int x,y;
+{  int x,y,s;
    printf("Enter the value of x and y);
-   scanf("%d %d",&x,y);
+   scanf("%d %d",&x,&y);
    s=x-y;
    printf("\nsub=%d",s);
 }
